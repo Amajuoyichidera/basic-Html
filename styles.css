@@ -1,0 +1,185 @@
+.myStyle {
+    color: pink;
+}
+
+#myId {
+    color: red;
+}
+
+p {
+    color: blueviolet;
+}
+
+h1 {
+    color: brown;
+}
+
+input[type='password'] {
+    border: 5px dotted brown;
+}
+
+nav {
+    background-color: yellow;
+}
+
+.myForm {
+    /* background-image: url('/image/Screenshot\ 2024-08-01\ 133854.png'); */
+    background-image: url('https://img.freepik.com/premium-vector/gradient-dynamic-blue-lines-background_993815-6594.jpg?semt=ais_hybrid');
+    line-height: 50px;
+}
+
+.first {
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: fantasy;
+    text-align: center;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    line-height: 50px;
+    /* padding-right: 50px; */
+    /* border-color: pink;
+    border-width: 5px;
+    border-style: solid; */
+    /* margin-top: 100px; */
+    /* padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px; */
+    padding: 50px 80px;
+    margin: 50px 80px;
+    /* border-radius: 50%; */
+    /* height: 300px;
+    width: 300px; */
+    border-top-right-radius: 50px;    
+    border: 10px dotted pink;       
+}
+
+.firstImg {
+    height: 100px;
+    width: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px; /* Two columns, each 100px wide */
+  grid-template-rows: 50px 50px; /* Two rows, each 50px high */
+  gap: 10px; /* Space between the grid items */
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.item1 {
+    grid-row: 1 / 3;
+    grid-column: 1/ 3;
+    background-color: #000;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 100px 100px; /* Two columns, each 100px wide */
+    grid-template-rows: 50px 50px; /* Two rows, each 50px high */
+    gap: 10px; /* Space between the grid items */
+  }
+
+
+.myleft {
+    text-align: left;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 10px black;
+    position: absolute;
+}
+
+.mycenter {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-transform: uppercase;
+    position: fixed;
+}
+
+.myright {
+    text-align: right;
+    text-decoration: overline;
+    text-decoration-color: yellow;
+    text-transform: lowercase;
+}
+
+.myblock {
+    position: absolute;
+}
+
+.sec1 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.sec2 {
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+}
+
+.sec3 {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.grid1 {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+   /* grid-column: 1 / 5; */
+   grid-row: 1 / 3;
+}
+
+.grid2 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.grid3 {
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+}
+
+.grid4 {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+}
+
+.grid5 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.grid6 {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 100px 70px;
+}
