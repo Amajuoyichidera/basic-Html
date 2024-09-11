@@ -226,3 +226,37 @@ nav {
         font-size: 60px;
     }
 }
+
+.myTrans {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    transition: 3s;
+}
+
+.myTrans:hover {
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.transInput {
+    border: 5px solid red;
+    /* transition: border 3s; */
+}
+
+.transInput:focus {
+    border: 10px dotted purple;
+}
+
+.transCon {
+    background-color: #000;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.transCon:hover {
+    /* transform: translate(50px, 100px); */
+    transform: rotateY(45deg);
+}
